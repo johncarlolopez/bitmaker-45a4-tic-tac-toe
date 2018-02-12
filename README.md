@@ -1,7 +1,9 @@
 ![Bitmaker](https://github.com/johncarlolopez/bitmaker-reference/blob/master/bitmakerlogo.svg)
 # 04 - Tic Tac Toe
 ### Monday, Feb 12th
-![Bitmaker](https://github.com/johncarlolopez/bitmaker-45a4-tic-tac-toe/blob/master/tictactoe.png)
+
+![Bitmaker](https://github.com/johncarlolopez/bitmaker-45a4-tic-tac-toe/blob/master/tictactoe.png)  
+
 
   Create Tic Tac Toe with JavaScript and HTML. Start with something simple and work to continually refactor your solution.
 
