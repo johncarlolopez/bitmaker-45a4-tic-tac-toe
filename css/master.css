@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+p.status {
+  font-size: 1em;
+  text-align: center;
+}
+
+div.board {
+  display: block;
+  background-color: black;
+  height: 301px;
+  width: 301px;
+  margin: auto;
+}
+
+div.location {
+  float: left;
+  display: inline-block;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border: 1px black solid;
+  font-size: 5em;
+  text-align: center;
+}
+
+.greenBackground {
+  background-color: green;
+}
+
+.clearfix::after {
+  clear: both;
+}
