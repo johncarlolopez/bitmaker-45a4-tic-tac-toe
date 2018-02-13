@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     }
-    console.log(filledLocations);
     if (!gameOver) {
       for (var i = 0; i < winningCombinations.length; i++) {
         checkWin(winningCombinations[i]);
@@ -63,9 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gameOver = true;
         statusEle.innerHTML = "It\'s a Draw!";
       }
-    } else {
-      statusEle.innerHTML = "It\'s a Draw!";
-      }
-    
+    } 
+
   });
 });
